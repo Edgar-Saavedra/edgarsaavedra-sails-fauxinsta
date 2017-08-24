@@ -34,5 +34,10 @@
     "url": "git://github.com/edgar/edgarsaavedra-sails-fauxinsta.git"
   },
   "author": "edgar",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "migrate": "^0.2.3",
+    "sails-hook-seed": "^0.2.6"
+  }
 }
