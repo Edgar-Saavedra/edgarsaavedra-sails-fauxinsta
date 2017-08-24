@@ -6,15 +6,15 @@
  */
 
 module.exports = {
-	
+
 
 
   /**
    * `PageController.home()`
    */
   home: function (req, res) {
-    return res.json({
-      todo: 'home() is not implemented yet!'
+    return res.view('Page/home', {
+      user: null
     });
   },
 

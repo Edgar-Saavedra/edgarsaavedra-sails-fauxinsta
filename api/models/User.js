@@ -12,7 +12,8 @@ module.exports = {
 
     id : {
       type: 'integer',
-      unique: 'true'
+      unique: 'true',
+      primaryKey: true
     },
 
     username: {

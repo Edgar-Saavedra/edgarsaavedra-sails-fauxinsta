@@ -8,7 +8,18 @@
 module.exports = {
 
   attributes: {
-
+    id : {
+      type: 'integer',
+      unique: 'true',
+      primaryKey: true
+    },
+    user: {
+      model: 'user'
+    },
+    description :
+    {
+      type: 'string',
+    }
   }
 };
 

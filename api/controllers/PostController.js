@@ -6,12 +6,6 @@
  */
 
 module.exports = {
-  user: {
-    model: 'user'
-  },
-  description :
-  {
-    type: 'string',
-  }
+
 };
 
