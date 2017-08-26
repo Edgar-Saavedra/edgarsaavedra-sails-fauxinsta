@@ -5,7 +5,9 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "db-migrate-mysql": "^1.1.10",
     "ejs": "2.3.4",
+    "faker": "^4.1.0",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-coffee": "1.0.0",
@@ -18,10 +20,16 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
-    "include-all": "^1.0.0",
+    "include-all": "*",
+    "lodash": "^4.17.4",
+    "migrate": "^0.2.3",
     "rc": "1.0.1",
-    "sails": "~0.12.13",
+    "sails": "^0.12.13",
+    "sails-db-migrate": "^1.5.0",
     "sails-disk": "~0.10.9",
+    "sails-hook-orm": "*",
+    "faker" : "*",
+    "sails-hook-seed": "^0.2.6",
     "sails-mysql": "^0.11.5"
   },
   "scripts": {
@@ -35,9 +43,5 @@
   },
   "author": "edgar",
   "license": "",
-  "devDependencies": {
-    "faker": "^4.1.0",
-    "migrate": "^0.2.3",
-    "sails-hook-seed": "^0.2.6"
-  }
+  "devDependencies": {}
 }

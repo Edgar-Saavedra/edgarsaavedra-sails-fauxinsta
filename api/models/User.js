@@ -6,31 +6,25 @@
  */
 
 module.exports = {
-  connection: 'someMysqlServer',
   schema: 'true',
   attributes: {
-
     id : {
       type: 'integer',
       unique: 'true',
       primaryKey: true
     },
-
     username: {
       type: 'string',
       unique: 'true'
     },
-
     email: {
       type: 'string',
       email: 'true',
       unique: 'true'
     },
-
     encryptedPassword: {
       type: 'string'
     },
-
     posts: {
       collection: 'post',
       via: 'user'

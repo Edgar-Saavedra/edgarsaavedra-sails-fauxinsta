@@ -6,6 +6,15 @@
  */
 
 module.exports = {
-	
+  users: function (req, res) {
+    User.find({}).populate('posts').exec(function (err, users){
+      if (err) {
+        return res.serverError(err);
+      }
+      return res.json({
+        users: users
+      });
+    });
+  },
 };
 

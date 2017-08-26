@@ -7,19 +7,22 @@
 
 module.exports = {
   schema: true,
-  connection: 'someMysqlServer',
   attributes: {
     id : {
       type: 'integer',
       unique: 'true',
-      primaryKey: true
+      primaryKey: true,
     },
-    user: {
-      model: 'user'
+    imgUrl: {
+      type: 'string',
+      unique: 'true'
     },
     description :
     {
       type: 'string',
+    },
+    user: {
+      model: 'user'
     }
   }
 };

@@ -24,6 +24,7 @@ module.exports = {
    */
   logout: function (req, res) {
     return res.json({
+      req : req,
       todo: 'logout() is not implemented yet!'
     });
   },

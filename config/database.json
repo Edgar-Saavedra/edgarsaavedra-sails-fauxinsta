@@ -1,0 +1,13 @@
+{
+  "defaultEnv": "dev",
+  "dev": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password" : "root",
+    "database": "edgarsaavedra-sails-fauxinsta",
+    "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock",
+    "port": 3306,
+    "driver": "sails-mysql",
+    "multipleStatements": true
+  }
+}

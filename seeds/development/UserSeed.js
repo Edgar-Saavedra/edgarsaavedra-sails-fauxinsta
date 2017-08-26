@@ -3,17 +3,11 @@ var faker = require('faker');
 module.exports = function(done) {
 
   var data = [{
-    id : faker.random.number(),
-
+    id : 1,
     username: faker.internet.userName(),
-
     email: faker.internet.email(),
-
-    encryptedPassword: {
-      type: 'thepassword'
-    },
-
     posts: [1,2],
+    encryptedPassword: 'thepassword',
   }];
 
   //remember to tell when your are done
